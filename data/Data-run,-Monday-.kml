@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>Data run, Monday </name><open>1</open>
+<Style id="trailsstyle">
+<LineStyle>
+  <color>7f0000ff</color>
+  <width>6</width>
+  </LineStyle>
+ </Style>
+  <description>n/a</description>
+<Placemark><styleUrl>#trailsstyle</styleUrl><name>Data run, Monday : Segment (1)</name><LineString>
+<tessellate>1</tessellate>
+<coordinates>
+-0.121111,51.533689,,0.000000
+-0.121111,51.533689,,0.000000
+-0.121111,51.533689,,0.000000
+-0.121111,51.533689,,0.000000
+-0.122038,51.533568,,0.000000
+-0.122038,51.533568,,0.000000</coordinates>
+</LineString>
+</Placemark>
+</Document>
+</kml>

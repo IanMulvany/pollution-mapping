@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="Trails - GPS Tracker" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<trk>
+	<name>Data run, Monday </name>
+	<desc></desc>
+	<trkseg>
+		<trkpt lat="51.533689" lon="-0.121111">
+			<ele>0.000000</ele>
+			<time>2010-05-10T15:54:37Z</time>
+		</trkpt>
+		<trkpt lat="51.533689" lon="-0.121111">
+			<ele>0.000000</ele>
+			<time>2010-05-10T15:54:38Z</time>
+		</trkpt>
+		<trkpt lat="51.533689" lon="-0.121111">
+			<ele>0.000000</ele>
+			<time>2010-05-10T15:55:53Z</time>
+		</trkpt>
+		<trkpt lat="51.533689" lon="-0.121111">
+			<ele>0.000000</ele>
+			<time>2010-05-10T15:55:58Z</time>
+		</trkpt>
+		<trkpt lat="51.533568" lon="-0.122038">
+			<ele>0.000000</ele>
+			<time>2010-05-10T15:56:20Z</time>
+		</trkpt>
+		<trkpt lat="51.533568" lon="-0.122038">
+			<ele>0.000000</ele>
+			<time>2010-05-10T15:56:29Z</time>
+		</trkpt>
+	</trkseg>
+</trk></gpx>
