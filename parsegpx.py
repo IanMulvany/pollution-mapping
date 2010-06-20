@@ -1,8 +1,12 @@
 from xml.dom import minidom
 from xml.dom.minidom import Document
+import glob 
+
+test_csv_file = 'data/100510_ianwalk_8.csv'
+test_gpx = 'data/Data.gpx.xml'
 
 def read_pollution_data():
-    p_data = open('100510_ianwalk.csv', 'r').readlines()  
+    p_data = open(test_csv_file, 'r').readlines()  
     p_data_point={"time":'','total_particles':0,'pm10':0,'pm2.5':0,'pm1':0}
     p_points=[]
     for measurement in p_data[2:]: #first two rows describe data format
@@ -16,7 +20,7 @@ def read_pollution_data():
     return p_points
         
 def read_geo_data():
-    xmldata = minidom.parse('Data.gpx.xml')
+    xmldata = minidom.parse('test_gpx')
     t_points_xml = xmldata.getElementsByTagName('trkpt')
     
     def get_data_from_trippoint(point):
